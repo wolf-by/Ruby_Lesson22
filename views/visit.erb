@@ -1,1 +1,19 @@
-<h2>Записаться</h2> 
+<h2>Записаться</h2>
+<p>Запишитесь к нам в Barber Shop</p>
+
+<form action="/visit" method="POST">
+  <div class="mb-3">
+    <label>Ваше имя</label>
+    <input name="username" type="text" class="form-control" placeholder="Введите имя">
+  </div>
+  <div class="mb-3">
+    <label>Ваш телефон</label>
+    <input name="phone" type="text" class="form-control" placeholder="Введите телефон">
+  </div>
+  <div class="mb-3">
+    <label>Дата и время</label>
+    <input name="datetime" type="text" class="form-control" placeholder="Введите дату и время">
+  </div>
+  </br> 
+  <button type="submit" class="btn btn-primary">Записаться</button>
+</form>
